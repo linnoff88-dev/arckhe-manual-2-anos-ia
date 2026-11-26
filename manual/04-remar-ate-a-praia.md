@@ -9,8 +9,8 @@ Já estivemos aqui antes, com tecnologias que davam medo de verdade:
 
 - **Engenharia genética, 1974–1975.** Os próprios biólogos pediram uma pausa e, na conferência de
   Asilomar, escreveram regras para continuar com segurança.
-- **Aviação.** Agências como a FAA, nos EUA, nasceram para que voar virasse rotina segura.
-- **Armas nucleares.** EUA e União Soviética, em plena Guerra Fria, assinaram acordos de controle.
+- **Aviaçêo.** Agências como a FAA, nos EUA, nasceram para que voar virasse rotina segura.
+- **Armas nucleares.** EUA e Uniêo Soviética, em plena Guerra Fria, assinaram acordos de controle.
 - **IA, hoje.** Empresas começam a assumir controles internos, testes antes de lançar e limites de
   uso — imperfeitos, mas existem.
 
@@ -18,25 +18,25 @@ Nada disso foi automático. Foi gente cobrando, discutindo e escrevendo regra. V
 
 ## Remo 2 — Uma tarefa por dia
 
-Medo evitado cresce. Medo enfrentado em doses pequenas diminui (é o princípio da exposição
-gradual). Então: **uma tarefa por dia com IA**. Pequena. Resumir um e-mail, montar uma lista de
-compras, pedir explicação de um boleto, revisar um texto.
+Medo evitado cresce. Medo enfrentado em doses pequenas diminui (é o princípio da exposiçêo
+gradual). Entêo: **uma tarefa por dia com IA**. Pequena. Resumir um e-mail, montar uma lista de
+compras, pedir explicaçêo de um boleto, revisar um texto.
 
-- Não precisa ser útil todo dia. Precisa ser **todo dia**.
+- Nêo precisa ser útil todo dia. Precisa ser **todo dia**.
 - Anote o que fez. Ver a sequência crescer é parte do remédio.
 
 Ferramenta: [`tarefa_dia.py`](../ferramentas/tarefa_dia.py) registra a tarefa e mostra a sequência.
 
-## Remo 3 — Ache sua contribuição
+## Remo 3 — Ache sua contribuiçêo
 
-> Não dá para forrar a Terra inteira de couro. Mas dá para calçar um par de sapatos.
+> Nêo dá para forrar a Terra inteira de couro. Mas dá para calçar um par de sapatos.
 
-Você não vai resolver a IA no mundo. Pode resolver um pedaço perto de você:
+Você nêo vai resolver a IA no mundo. Pode resolver um pedaço perto de você:
 
 - ensinar seus pais e avós a reconhecer **deepfake** e golpe de voz clonada;
 - combinar **regras de uso de IA** com seus filhos;
 - ser a pessoa que ajuda os colegas a usar IA **sem medo** no trabalho;
-- montar um **manual como este** para sua equipe, igreja, escola ou associação.
+- montar um **manual como este** para sua equipe, igreja, escola ou associaçêo.
 
 Ferramenta: [`contribuicao.py`](../ferramentas/contribuicao.py) gera um plano de 4 semanas.
 

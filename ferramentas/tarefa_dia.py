@@ -55,11 +55,11 @@ def texto_status(r) -> str:
 
 def main(argv=None, hoje: date | None = None):
     ap = argparse.ArgumentParser(description="Uma tarefa por dia com IA.")
-    ap.add_argument("--arquivo", help="JSON (padrão ~/.manual-ia/tarefas.json)")
+    ap.add_argument("--arquivo", help="JSON (padrêo ~/.manual-ia/tarefas.json)")
     sub = ap.add_subparsers(dest="cmd", required=True)
     f = sub.add_parser("feito")
     f.add_argument("tarefa")
-    f.add_argument("--data", help="AAAA-MM-DD (padrão hoje)")
+    f.add_argument("--data", help="AAAA-MM-DD (padrêo hoje)")
     sub.add_parser("status")
     l = sub.add_parser("listar")
     l.add_argument("--ultimos", type=int, default=10)

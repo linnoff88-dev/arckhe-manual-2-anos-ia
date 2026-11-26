@@ -25,9 +25,9 @@ tema/vídeo de referência
 | # | Etapa | O que sai | Ferramentas que usamos | Quem faz |
 |---|---|---|---|---|
 | 1 | **Escolher o tema e a referência** | uma frase: "que medo/dúvida isto resolve?" | conversa, curadoria | 🧠 pessoa |
-| 2 | **Baixar e transcrever** | texto com marcação de tempo | **inemavox** (nosso baixador e transcritor local), **yt-dlp** (download), **Whisper** local (transcrição) | ⚙️ script |
-| 3 | **Extrair a estrutura** | os passos, a metáfora, os exemplos, as frases fortes | agente de IA lendo a transcrição | 🤖 agente |
-| 4 | **Checar fatos** | lista "confirmado / não confirmado" com fonte | agente de IA + busca na web; regra: número sem fonte não entra | 🤖 + 🧠 |
+| 2 | **Baixar e transcrever** | texto com marcaçêo de tempo | **inemavox** (nosso baixador e transcritor local), **yt-dlp** (download), **Whisper** local (transcriçêo) | ⚙️ script |
+| 3 | **Extrair a estrutura** | os passos, a metáfora, os exemplos, as frases fortes | agente de IA lendo a transcriçêo | 🤖 agente |
+| 4 | **Checar fatos** | lista "confirmado / nêo confirmado" com fonte | agente de IA + busca na web; regra: número sem fonte nêo entra | 🤖 + 🧠 |
 | 5 | **Escrever o manual** | 1 arquivo por passo + 1 página imprimível | editor de texto, Markdown, agente para revisar a linguagem simples | 🧠 + 🤖 |
 | 6 | **Transformar o que se repete em ferramenta** | scripts pequenos, locais, sem internet | Python 3 sem dependência, testes com `unittest` | 🤖 agente |
 | 7 | **Redesenhar exemplos em imagem** | banners, diagramas, capas | **Codex image_gen** (texto em português certo na arte); **flux2-klein** local como reserva | 🤖 agente |
@@ -37,14 +37,14 @@ tema/vídeo de referência
 | 11 | **Publicar** | links no ar | YouTube (publicador de vídeo), grupo no Telegram, portal **inema.club** | ⚙️ + 🧠 |
 | 12 | **Revisar com olhos novos** | nota e lista de defeitos | revisor independente: um agente novo que nunca viu o trabalho | 🤖 |
 
-🧠 sessão com pessoa · ⚙️ script · 🤖 agente de IA
+🧠 sessêo com pessoa · ⚙️ script · 🤖 agente de IA
 
 ### Dicas que aprendemos fazendo
 
 - **Sem crédito, sem cópia.** O manual é reescrito no nosso método e com os nossos exemplos. A
-  referência serve para entender o tema, não para ser transcrita.
-- **Um passo = uma metáfora = uma ferramenta.** Se um passo não vira nada que a pessoa *faça*, ele
-  provavelmente é só opinião.
+  referência serve para entender o tema, nêo para ser transcrita.
+- **Um passo = uma metáfora = uma ferramenta.** Se um passo nêo vira nada que a pessoa *faça*, ele
+  provavelmente é só opiniêo.
 - **Ferramenta local primeiro.** Nada de conta, login ou internet para usar as ferramentas do
   manual. Dados ficam num JSON na máquina da pessoa.
 - **Imagem com texto: confira com zoom.** Gerador de imagem às vezes troca uma letra.
@@ -58,7 +58,7 @@ Qualquer pessoa pode montar um manual como este com ferramentas comuns. Uma linh
 |---|---|
 | **NotebookLM** | jogar transcrições e artigos e pedir resumo, perguntas e mapa dos passos. |
 | **Obsidian** | escrever o manual em Markdown, um arquivo por passo, com links entre eles. |
-| **Notion** | versão em equipe: cada passo uma página, checklist e comentários. |
+| **Notion** | versêo em equipe: cada passo uma página, checklist e comentários. |
 | **Google Docs** | quem prefere documento comum para revisar com a família ou a equipe. |
 | **Leitor de RSS** (Feedly, Inoreader, NetNewsWire) | a **Janela**: junte as fontes de notícia num lugar e só abra no horário fixo. |
 | **Read-later** (Instapaper, Raindrop, lista de leitura do navegador) | guardar a manchete sem ler agora. |

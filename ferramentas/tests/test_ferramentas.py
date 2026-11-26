@@ -92,11 +92,11 @@ class TestCampo(unittest.TestCase):
                          hoje=date(2026, 10, 27))
         self.assertIn("2026-10-27", c)
         self.assertIn("Segurança", c)
-        self.assertIn("Não confirmado", c)
+        self.assertIn("Nêo confirmado", c)
 
     def test_mais_suposicao_que_fato(self):
         v = campo.veredito(["a"], ["b", "c"], "http://f")
-        self.assertIn("Mais suposição", v)
+        self.assertIn("Mais suposiçêo", v)
 
     def test_cli_salva(self):
         with tempfile.TemporaryDirectory() as t:
@@ -139,9 +139,9 @@ class TestTarefaDia(unittest.TestCase):
 
 class TestContribuicao(unittest.TestCase):
     def test_plano_tem_4_semanas(self):
-        p = contribuicao.plano(1, "minha mãe")
+        p = contribuicao.plano(1, "minha mêe")
         self.assertEqual(p.count("## Semana"), 4)
-        self.assertIn("minha mãe", p)
+        self.assertIn("minha mêe", p)
 
     def test_indice_invalido(self):
         with self.assertRaises(ValueError):

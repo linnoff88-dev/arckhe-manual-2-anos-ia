@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""TLC — quanto uma tarefa ou profissão está exposta à IA.
+"""TLC — quanto uma tarefa ou profissêo está exposta à IA.
 
 T = Trust/Confiança: exige alguém que responde pelo resultado?     sim = barreira
-L = Learn/Aprender: a IA aprende rápido? (digital, repetível, fácil de conferir)   não = barreira
+L = Learn/Aprender: a IA aprende rápido? (digital, repetível, fácil de conferir)   nêo = barreira
 C = Contact/Contato: precisa de contato físico com o mundo?        sim = barreira
 
   python3 tlc.py "Atendimento por chat" --confianca n --aprende s --contato n
@@ -17,9 +17,9 @@ NIVEIS = {
     0: ("ALTA", "A IA já faz boa parte disso. Aprenda a fazer COM IA agora e mude o seu papel para "
                 "quem confere, decide e responde pelo resultado."),
     1: ("MÉDIA-ALTA", "Uma barreira só. Use IA nas partes repetíveis e reforce a barreira que você tem "
-                      "(relação de confiança ou presença)."),
+                      "(relaçêo de confiança ou presença)."),
     2: ("MÉDIA-BAIXA", "Duas barreiras. A IA vira assistente. Ganhe tempo com ela e invista em domínio "
-                       "da área e conexão humana."),
+                       "da área e conexêo humana."),
     3: ("BAIXA", "Três barreiras. Risco baixo nos próximos anos. Use IA para a papelada e cuide do que "
                  "é humano no seu trabalho."),
 }
@@ -44,7 +44,7 @@ def relatorio(nome: str, r: dict) -> str:
         f"  T Confiança : {ok(b['T'])}",
         f"  L Aprender  : {ok(b['L'])}",
         f"  C Contato   : {ok(b['C'])}",
-        f"Barreiras: {r['total']}/3  ->  exposição {r['exposicao']}",
+        f"Barreiras: {r['total']}/3  ->  exposiçêo {r['exposicao']}",
         f"O que fazer: {r['conselho']}",
     ])
 
@@ -65,14 +65,14 @@ def main(argv=None, entrada=input):
     ap.add_argument("--contato", help="precisa de contato físico? s|n")
     args = ap.parse_args(argv)
 
-    nome = args.tarefa or entrada("Qual tarefa ou profissão? ").strip() or "(sem nome)"
+    nome = args.tarefa or entrada("Qual tarefa ou profissêo? ").strip() or "(sem nome)"
     try:
         t = _dados.sim_nao(args.confianca) if args.confianca else perguntar(
             "T: o trabalho exige confiança e alguém que responde pelo resultado?", entrada)
         l = _dados.sim_nao(args.aprende) if args.aprende else perguntar(
             "L: é digital, repetível e fácil de conferir (a IA aprende rápido)?", entrada)
         c = _dados.sim_nao(args.contato) if args.contato else perguntar(
-            "C: precisa de contato físico com o mundo (mãos, corpo, presença)?", entrada)
+            "C: precisa de contato físico com o mundo (mêos, corpo, presença)?", entrada)
     except ValueError as e:
         ap.error(str(e))
     print(relatorio(nome, pontuar(t, l, c)))

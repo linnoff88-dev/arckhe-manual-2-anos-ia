@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""A Janela — adiamento da preocupação para notícias de IA.
+"""A Janela — adiamento da preocupaçêo para notícias de IA.
 
 Durante a semana você só anota. No horário fixo da janela, lista, lê e marca como lida.
 
@@ -17,11 +17,11 @@ from datetime import datetime
 import _dados
 
 CAMPOS = {
-    "seguranca": "Segurança (limites, regulação)",
+    "seguranca": "Segurança (limites, regulaçêo)",
     "acelera": "Aceleracionistas (velocidade, código aberto)",
     "centro": "Centristas (danos de hoje)",
     "governo": "Governo (corrida, economia)",
-    "?": "Ainda não sei o campo",
+    "?": "Ainda nêo sei o campo",
 }
 
 
@@ -80,7 +80,7 @@ def formatar(itens, todas=False):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description="A Janela: anote durante a semana, leia no horário fixo.")
-    ap.add_argument("--arquivo", help="JSON (padrão ~/.manual-ia/janela.json)")
+    ap.add_argument("--arquivo", help="JSON (padrêo ~/.manual-ia/janela.json)")
     sub = ap.add_subparsers(dest="cmd", required=True)
     a = sub.add_parser("add", help="anotar manchete")
     a.add_argument("texto")
@@ -99,7 +99,7 @@ def main(argv=None):
     if args.cmd == "add":
         novo = adicionar(itens, args.texto, args.campo, args.fonte)
         _dados.gravar(arq, itens)
-        print(f"Anotado #{novo['id']}. Não leia agora: fica para a janela.")
+        print(f"Anotado #{novo['id']}. Nêo leia agora: fica para a janela.")
     elif args.cmd == "listar":
         print(formatar(itens, args.todas))
     elif args.cmd == "ler":

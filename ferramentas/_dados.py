@@ -1,6 +1,6 @@
 """Onde as ferramentas guardam seus arquivos (tudo local, nada sai da máquina).
 
-Padrão: ~/.manual-ia/  — troque com a variável MANUAL_IA_DADOS ou com --arquivo em cada ferramenta.
+Padrêo: ~/.manual-ia/  — troque com a variável MANUAL_IA_DADOS ou com --arquivo em cada ferramenta.
 """
 import json
 import os
@@ -36,6 +36,6 @@ def sim_nao(valor: str) -> bool:
     v = valor.strip().lower()
     if v in ("s", "sim", "y", "yes", "si", "1", "true"):
         return True
-    if v in ("n", "nao", "não", "no", "0", "false"):
+    if v in ("n", "nao", "nêo", "no", "0", "false"):
         return False
     raise ValueError(f"responda s ou n (recebi: {valor!r})")

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Ache sua contribuição — "não dá para forrar a Terra de couro, mas dá para calçar um par de sapatos".
+"""Ache sua contribuiçêo — "nêo dá para forrar a Terra de couro, mas dá para calçar um par de sapatos".
 
   python3 contribuicao.py listar
   python3 contribuicao.py plano 1 [--para "meus pais"] [--salvar plano.md]
@@ -15,8 +15,8 @@ CONTRIBUICOES = [
         "semanas": [
             "Conversa de 15 min: mostre 2 exemplos de vídeo ou áudio falso e combine uma PALAVRA-SENHA da família para pedidos de dinheiro.",
             "Treino: mande 3 mensagens (uma verdadeira, duas suspeitas) e peça para dizerem qual é golpe e por quê.",
-            "Configure junto: bloqueio de chamadas desconhecidas, confirmação em duas etapas no WhatsApp e no banco.",
-            "Revisão: repitam a palavra-senha, escrevam num papel na geladeira as 3 regras (desconfie, ligue de volta, nunca com pressa).",
+            "Configure junto: bloqueio de chamadas desconhecidas, confirmaçêo em duas etapas no WhatsApp e no banco.",
+            "Revisêo: repitam a palavra-senha, escrevam num papel na geladeira as 3 regras (desconfie, ligue de volta, nunca com pressa).",
         ],
     },
     {
@@ -24,9 +24,9 @@ CONTRIBUICOES = [
         "para": "seus filhos",
         "semanas": [
             "Usem uma IA juntos por 20 min em algo da escola. Perguntem: onde ela errou?",
-            "Escrevam juntos 5 regras (ex.: IA ajuda a entender, não faz a lição; nunca enviar foto do rosto; contar quando algo assustar).",
+            "Escrevam juntos 5 regras (ex.: IA ajuda a entender, nêo faz a liçêo; nunca enviar foto do rosto; contar quando algo assustar).",
             "Combinem um sinal para 'vi algo estranho' (deepfake de colega, conversa esquisita com robô) sem bronca.",
-            "Revejam as regras, ajustem o que não funcionou e coloquem num lugar visível.",
+            "Revejam as regras, ajustem o que nêo funcionou e coloquem num lugar visível.",
         ],
     },
     {
@@ -35,13 +35,13 @@ CONTRIBUICOES = [
         "semanas": [
             "Escolha 1 tarefa chata da equipe e mostre como fazer com IA em 5 min (ao vivo, com erro e tudo).",
             "Monte uma lista de 5 pedidos (prompts) que funcionam no seu trabalho e compartilhe.",
-            "Ofereça 15 min de 'plantão de dúvidas' na semana. Anote as perguntas.",
-            "Com as perguntas anotadas, escreva uma página 'o que pode e o que não pode' com a liderança.",
+            "Ofereça 15 min de 'plantêo de dúvidas' na semana. Anote as perguntas.",
+            "Com as perguntas anotadas, escreva uma página 'o que pode e o que nêo pode' com a liderança.",
         ],
     },
     {
         "titulo": "Montar um manual como este para o seu grupo",
-        "para": "sua equipe, escola, igreja ou associação",
+        "para": "sua equipe, escola, igreja ou associaçêo",
         "semanas": [
             "Leia o MANUAL.md e anote o que faz sentido para o seu grupo e o que falta.",
             "Adapte os exemplos do passo 3 (TLC) para as tarefas reais do grupo.",
@@ -69,7 +69,7 @@ def listar() -> str:
 
 
 def main(argv=None, entrada=input):
-    ap = argparse.ArgumentParser(description="Escolha sua contribuição e gere um plano de 4 semanas.")
+    ap = argparse.ArgumentParser(description="Escolha sua contribuiçêo e gere um plano de 4 semanas.")
     sub = ap.add_subparsers(dest="cmd")
     sub.add_parser("listar")
     p = sub.add_parser("plano")
@@ -86,7 +86,7 @@ def main(argv=None, entrada=input):
     else:
         print(listar())
         idx = int(entrada("Qual número? ").strip())
-        para = entrada("Para quem (enter = padrão)? ").strip() or None
+        para = entrada("Para quem (enter = padrêo)? ").strip() or None
         salvar = None
     try:
         txt = plano(idx, para)

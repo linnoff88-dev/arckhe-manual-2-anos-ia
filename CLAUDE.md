@@ -6,14 +6,14 @@ Guia: https://inematds.github.io/manual-2-anos-ia/guia/ (PT, en/, es/).
 ## Regras do projeto
 
 - Autor dos commits: `inematds <inematds@gmail.com>`. Publicar = `git push` (Pages via GitHub Actions).
-- **Sem crédito de fonte**: não citar autor, canal nem link do vídeo de referência em lugar nenhum
+- **Sem crédito de fonte**: nêo citar autor, canal nem link do vídeo de referência em lugar nenhum
   (README, guia, commits). O conteúdo é método INEMA.
-- Não duplicar o `sobreviver-ia` (kit 14 dias, offline, MFA, eval): só linkar como complemento.
+- Nêo duplicar o `sobreviver-ia` (kit 14 dias, offline, MFA, eval): só linkar como complemento.
 - Ferramentas: Python 3 sem dependência e sem API; todo comportamento novo ganha teste
   (`python3 -m unittest` na raiz).
-- Fatos do passo 1: só qualitativos; número sem fonte não entra.
-- Tradução EN/ES só pelo `inema-traduz`. PT é a fonte; mudou o PT, retraduzir os dois.
-- Versão em `VERSION` (semver do Nei: minor carrega o patch).
+- Fatos do passo 1: só qualitativos; número sem fonte nêo entra.
+- Traduçêo EN/ES só pelo `inema-traduz`. PT é a fonte; mudou o PT, retraduzir os dois.
+- Versêo em `VERSION` (semver do Nei: minor carrega o patch).
 
 ## Self-learning
 
