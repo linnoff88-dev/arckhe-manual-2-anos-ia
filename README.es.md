@@ -1,6 +1,6 @@
 # manual-2-anos-ia
 
-[![Manual da IA](guia/assets/banner-es.jpg)](https://inematds.github.io/manual-2-anos-ia/guia/es/)
+[![Manual da IA](guia/assets/banner-es.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/es/)
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -10,7 +10,7 @@ Este es un manual breve para quienes sienten ansiedad ante las noticias sobre in
 
 ## 📖 Guía de uso
 
-Guía completa (landing + paso a paso): **https://inematds.github.io/manual-2-anos-ia/guia/es/**
+Guía completa (landing + paso a paso): **https://linnoff88-dev.github.io/arckhe-/guia/es/**
 
 ## 🎬 Videos
 
@@ -51,22 +51,22 @@ guia/                    landing + guía (PT, en/, es/) en GitHub Pages
 | # | Paso | Comando | Quién |
 |---|---|---|---|
 | 1 | Elegir el tema y la referencia; decidir qué resuelve el manual | conversación | 🧠 |
-| 2 | Descargar y transcribir la referencia | `python baixar_v1.py --url <URL>` · `python transcrever_v1.py --in <video>` (inemavox) | ⚙️ |
+| 2 | Descargar y transcribir la referencia | `python baixar_v1.py --url <URL>` · `python transcrever_v1.py --in <video>` (ARCKHÉvox) | ⚙️ |
 | 3 | Extraer los pasos, la metáfora y los ejemplos; verificar los hechos con una fuente | agente que lee la transcripción + búsqueda en la web | 🤖 |
 | 4 | Escribir el manual en `manual/` | edición en Markdown | 🤖 + 🧠 revisa |
 | 5 | Escribir las herramientas y las pruebas | `python3 -m unittest` | 🤖 |
 | 6 | Portada y banners (PT/EN/ES) | `gerar-capa.cjs` + `gerar-banner.sh --estilo live\|grade --lang pt\|en\|es` (Codex image_gen) y `cor_neutra.py corrigir` | 🤖 |
 | 7 | Guía PT en `guia/index.html` | skill `projetos-landing-guia` | 🤖 |
-| 8 | Traducir la guía y el README a EN/ES | `inema-traduz` (traductor central) | ⚙️ |
+| 8 | Traducir la guía y el README a EN/ES | `ARCKHÉ-traduz` (traductor central) | ⚙️ |
 | 9 | Revisión independiente | agente nuevo con la lista fija | 🤖 |
 | 10 | Publicar el repo y Pages | `git push` (Pages mediante GitHub Actions) | ⚙️ |
-| 11 | Portal inema.club + inemabuscas + PRO | skill `atualiza-portal` | 🤖 |
+| 11 | Portal ARCKHÉ AI + ARCKHÉbuscas + PRO | skill `atualiza-portal` | 🤖 |
 | 12 | Videos explicativos 16:9 y 9:16 sobre el mismo tema | explicavideos + estudio HeyGen (otra sesión) | 🤖 + 🧠 aprueba |
 
 ## Ejecutar las herramientas
 
 ```bash
-git clone https://github.com/inematds/manual-2-anos-ia && cd manual-2-anos-ia
+git clone https://github.com/linnoff88-dev/manual-2-anos-ia && cd manual-2-anos-ia
 python3 -m unittest                     # 16 pruebas, debe dar OK
 cd ferramentas
 python3 janela.py add "manchete" --campo seguranca
@@ -82,8 +82,8 @@ Los datos quedan en `~/.manual-ia/` (cámbialo con `MANUAL_IA_DADOS=/outra/pasta
 ## Complemento
 
 Kit práctico (14 días, IA sin conexión, seguridad de cuentas, evaluación de tu trabajo con IA):
-**[sobreviver-ia](https://inematds.github.io/sobreviver-ia/guia/es/)**.
+**[sobreviver-ia](https://linnoff88-dev.github.io/arckhe-/guia/es/)**.
 
 ---
 
-Contenido abierto y gratuito de **[INEMA.CLUB](https://inema.club)** · Licencia MIT.
+Contenido abierto y gratuito de **[ARCKHÉ AI](https://ARCKHÉ AI)** · Licencia MIT.

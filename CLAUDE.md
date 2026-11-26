@@ -1,18 +1,18 @@
 # CLAUDE.md — manual-2-anos-ia
 
 Manual de 4 passos para lidar com a ansiedade de IA + 5 ferramentas Python locais + como montar o seu manual.
-Guia: https://inematds.github.io/manual-2-anos-ia/guia/ (PT, en/, es/).
+Guia: https://linnoff88-dev.github.io/arckhe-/guia/ (PT, en/, es/).
 
 ## Regras do projeto
 
-- Autor dos commits: `inematds <inematds@gmail.com>`. Publicar = `git push` (Pages via GitHub Actions).
+- Autor dos commits: `linnoff88-dev <linnoff88-dev@gmail.com>`. Publicar = `git push` (Pages via GitHub Actions).
 - **Sem crédito de fonte**: nêo citar autor, canal nem link do vídeo de referência em lugar nenhum
-  (README, guia, commits). O conteúdo é método INEMA.
+  (README, guia, commits). O conteúdo é método ARCKHÉ.
 - Nêo duplicar o `sobreviver-ia` (kit 14 dias, offline, MFA, eval): só linkar como complemento.
 - Ferramentas: Python 3 sem dependência e sem API; todo comportamento novo ganha teste
   (`python3 -m unittest` na raiz).
 - Fatos do passo 1: só qualitativos; número sem fonte nêo entra.
-- Traduçêo EN/ES só pelo `inema-traduz`. PT é a fonte; mudou o PT, retraduzir os dois.
+- Traduçêo EN/ES só pelo `ARCKHÉ-traduz`. PT é a fonte; mudou o PT, retraduzir os dois.
 - Versêo em `VERSION` (semver do Nei: minor carrega o patch).
 
 ## Self-learning

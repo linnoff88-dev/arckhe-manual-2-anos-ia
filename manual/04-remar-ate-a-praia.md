@@ -43,4 +43,4 @@ Ferramenta: [`contribuicao.py`](../ferramentas/contribuicao.py) gera um plano de
 ---
 
 Complemento prático (kit de 14 dias, IA offline, segurança de contas, avaliar seu trabalho com IA):
-**[sobreviver-ia](https://inematds.github.io/sobreviver-ia/guia/)**.
+**[sobreviver-ia](https://linnoff88-dev.github.io/arckhe-/guia/)**.

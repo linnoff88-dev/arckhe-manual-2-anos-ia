@@ -1,6 +1,6 @@
 # Como criar este manual (e o seu)
 
-Este documento mostra **como o INEMA transforma um tema em manual + vídeos + ferramentas**, passo a
+Este documento mostra **como o ARCKHÉ transforma um tema em manual + vídeos + ferramentas**, passo a
 passo, e **quais ferramentas ajudam em cada etapa**. No fim, uma lista de ferramentas públicas para
 qualquer pessoa montar um manual parecido para a família, a equipe ou a escola.
 
@@ -25,16 +25,16 @@ tema/vídeo de referência
 | # | Etapa | O que sai | Ferramentas que usamos | Quem faz |
 |---|---|---|---|---|
 | 1 | **Escolher o tema e a referência** | uma frase: "que medo/dúvida isto resolve?" | conversa, curadoria | 🧠 pessoa |
-| 2 | **Baixar e transcrever** | texto com marcaçêo de tempo | **inemavox** (nosso baixador e transcritor local), **yt-dlp** (download), **Whisper** local (transcriçêo) | ⚙️ script |
+| 2 | **Baixar e transcrever** | texto com marcaçêo de tempo | **ARCKHÉvox** (nosso baixador e transcritor local), **yt-dlp** (download), **Whisper** local (transcriçêo) | ⚙️ script |
 | 3 | **Extrair a estrutura** | os passos, a metáfora, os exemplos, as frases fortes | agente de IA lendo a transcriçêo | 🤖 agente |
 | 4 | **Checar fatos** | lista "confirmado / nêo confirmado" com fonte | agente de IA + busca na web; regra: número sem fonte nêo entra | 🤖 + 🧠 |
 | 5 | **Escrever o manual** | 1 arquivo por passo + 1 página imprimível | editor de texto, Markdown, agente para revisar a linguagem simples | 🧠 + 🤖 |
 | 6 | **Transformar o que se repete em ferramenta** | scripts pequenos, locais, sem internet | Python 3 sem dependência, testes com `unittest` | 🤖 agente |
 | 7 | **Redesenhar exemplos em imagem** | banners, diagramas, capas | **Codex image_gen** (texto em português certo na arte); **flux2-klein** local como reserva | 🤖 agente |
 | 8 | **Roteiro e vídeo explicativo** | vídeo 16:9 e corte 9:16 | **explicavideos** (nosso motor de vídeo explicativo) + avatar e voz pelo estúdio **HeyGen** | 🤖 + 🧠 aprova |
-| 9 | **Traduzir PT → EN/ES** | guia, README e vídeos em 3 idiomas | tradutor central do INEMA (um único comando, um modelo trocável num só lugar) | ⚙️ script |
-| 10 | **Guia / landing** | página única no GitHub Pages | gerador de guia INEMA (HTML único, sem build) + GitHub Actions | 🤖 agente |
-| 11 | **Publicar** | links no ar | YouTube (publicador de vídeo), grupo no Telegram, portal **inema.club** | ⚙️ + 🧠 |
+| 9 | **Traduzir PT → EN/ES** | guia, README e vídeos em 3 idiomas | tradutor central do ARCKHÉ (um único comando, um modelo trocável num só lugar) | ⚙️ script |
+| 10 | **Guia / landing** | página única no GitHub Pages | gerador de guia ARCKHÉ (HTML único, sem build) + GitHub Actions | 🤖 agente |
+| 11 | **Publicar** | links no ar | YouTube (publicador de vídeo), grupo no Telegram, portal **ARCKHÉ AI** | ⚙️ + 🧠 |
 | 12 | **Revisar com olhos novos** | nota e lista de defeitos | revisor independente: um agente novo que nunca viu o trabalho | 🤖 |
 
 🧠 sessêo com pessoa · ⚙️ script · 🤖 agente de IA

@@ -33,4 +33,4 @@ Mais barreiras = mais longe do risco. Sua vantagem: **conexêo humana + domínio
 
 ---
 Ferramentas locais: `janela.py` · `campo.py` · `tlc.py` · `tarefa_dia.py` · `contribuicao.py`
-— INEMA.CLUB · https://inematds.github.io/manual-2-anos-ia/guia/
+— ARCKHÉ AI · https://linnoff88-dev.github.io/arckhe-/guia/
